@@ -40,7 +40,7 @@ CACHE_DIR = Path.home() / ".cache" / "cwe-search"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 # Update if MITRE releases a new version; this one works at time of writing.
-DEFAULT_CWE_ZIP_URL = "https://cwe.mitre.org/data/xml/cwec_v4.13.xml.zip"
+DEFAULT_CWE_ZIP_URL = "https://cwe.mitre.org/data/xml/cwec_v4.17.xml.zip"
 CWE_ZIP_PATH = CACHE_DIR / "cwec.xml.zip"
 CWE_XML_PATH = CACHE_DIR / "cwec.xml"
 CWE_JSON_CACHE = CACHE_DIR / "cwe_index.json"
